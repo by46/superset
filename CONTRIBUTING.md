@@ -588,7 +588,8 @@ best practices.
 
 #### Feature flags
 
-Superset supports a server-wide feature flag system, which eases the incremental development of features. To add a new feature flag, simply modify `superset_config.py` with something like the following:
+Superset supports a server-wide feature fl
+ag system, which eases the incremental development of features. To add a new feature flag, simply modify `superset_config.py` with something like the following:
 
 ```python
 FEATURE_FLAGS = {
